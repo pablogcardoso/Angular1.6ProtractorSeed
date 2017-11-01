@@ -1,10 +1,10 @@
 # Angular1.6ProtractorSeed#
 Basic structure for AngularJs project with Protractor E2E 
 ## Specs
--This project use UI-Route for make routing with multiple views.
--Use Angular 1.6.x or leter
--Need Nodejs 6.x or leter
--Protractor 5.2.0 or leter
+*This project use UI-Route for make routing with multiple views.
+*Use Angular 1.6.x or leter
+*Need Nodejs 6.x or leter
+*Protractor 5.2.0 or leter
 
 ## Installation
 **Note**
@@ -15,6 +15,7 @@ In order to start the seed use:
 > cd myproyect
 # install the project's dependencies
 > myproyect/ npm install
+
 #Install protractor (global)
 > npm install -g protractor
 #update web-driver
@@ -22,10 +23,11 @@ In order to start the seed use:
 ```
 
 ## Running
-For run your project need init the node server:
+For run your project need init the node server and next run all e2e test:
 ```bash
 > myproyect/ npm start
 
+#FOR RUN E2E TEST:
 #In other windows run:
 > myproyect/ webdriver-manager start
 #In other windows run :
